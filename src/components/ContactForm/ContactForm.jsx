@@ -6,7 +6,7 @@ import { getFilteredContacts } from '../../redux/selectors';
 
 import css from './ContactForm.module.css';
 
-export const ContactForm = ({ onSubmit }) => {
+export const ContactForm = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(getFilteredContacts);
 
